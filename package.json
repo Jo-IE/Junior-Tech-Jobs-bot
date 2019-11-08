@@ -2,12 +2,18 @@
   "name": "juniorjobsbot",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "start": "node main.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node main.js"
   },
-  "keywords": [],
+  "keywords": [
+    "twitter",
+    "bot",
+    "juniors",
+    "entr-level",
+    "jobs",
+    "nodejs"
+  ],
   "author": "Jo IE",
   "license": "ISC",
   "dependencies": {
