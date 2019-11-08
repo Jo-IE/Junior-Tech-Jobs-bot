@@ -18,7 +18,7 @@ const queryArray = [
 ];
 
 const pickQuery = function(array) {
-  let index = Math.round(Math.random() * array.length - 1);
+  let index = Math.floor(Math.random() * array.length - 1);
 
   return array[index] + ' -filter:retweets';
 };
