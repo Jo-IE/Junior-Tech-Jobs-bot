@@ -5,14 +5,14 @@ const Twitter = new Twit(config);
 
 const queryArray = [
   '1yr experience software job,',
-  'entry-level developer job -business,',
+  'hiring entry-level developer -business,',
   'all levels software engineers role,',
   'entry-level infosec role,',
   'entry-level security analyst job,',
   ' junior infosec openings',
   'junior sofware engineer openings,',
   'junior developer openings -business -curriculum,',
-  'associate developer -business -curriculum,',
+  'hiring associate developer -business -curriculum,',
   'looking for junior developer -business -curriculum,',
   'looking for associate developer -business -curriculum,',
   'looking for entry-level software engineer,',
