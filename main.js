@@ -5,8 +5,7 @@ const Twitter = new Twit(config);
 
 function retweet() {
   const params = {
-    q:
-      'junior software job, entry-level software job, 1yr experience software job, junior developer "job OR role", entry-level developer job, all levels software engineers, entry-level infosec, -filter:retweets',
+    q: 'junior software job, -filter:retweets',
     result_type: 'recent',
     lang: 'en'
   };
@@ -28,3 +27,5 @@ function retweet() {
 }
 
 setInterval(retweet, 15000);
+
+//entry-level software job, 1yr experience software job, junior developer "job OR role", entry-level developer job, all levels software engineers, entry-level infosec
