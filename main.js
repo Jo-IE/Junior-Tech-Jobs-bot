@@ -28,14 +28,13 @@ const queryArray = [
   'hiring junior frontend engineer'
 ];
 let prevIndex = 0;
-let newIndex = 0;
 const pickQuery = function(array) {
   let index = Math.floor(Math.random() * array.length - 1);
   while (prevIndex === index) {
-    newIndex = Math.floor(Math.random() * array.length - 1);
+    index = Math.floor(Math.random() * array.length - 1);
   }
-  prevIndex = newIndex;
-  return array[newIndex] + ' -filter:retweets';
+  prevIndex = index;
+  return array[index] + ' -filter:retweets';
 };
 
 function retweet() {
@@ -62,5 +61,3 @@ function retweet() {
 }
 
 setInterval(retweet, 15000);
-
-//entry-level software job, 1yr experience software job, junior developer "job OR role", entry-level developer job, all levels software engineers, entry-level infosec
