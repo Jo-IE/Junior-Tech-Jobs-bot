@@ -4,19 +4,20 @@ const config = require('./config');
 const Twitter = new Twit(config);
 
 const queryArray = [
-  'entry-level software job, -filter:retweets',
-  '1yr experience software job, -filter:retweets',
-  'junior developer job, -filter:retweets',
-  'entry-level developer job, -filter:retweets',
-  'all levels software engineers role, -filter:retweets',
-  'entry-level infosec job, -filter:retweets',
-  'entry-level infosec role, -filter:retweets'
+  'entry-level software job,',
+  '1yr experience software job,',
+  'junior developer job -business,',
+  'entry-level developer job -business,',
+  'all levels software engineers role,',
+  'entry-level infosec job,',
+  'entry-level infosec role,',
+  'entry-level security analyst job,'
 ];
 
 const pickQuery = function(array) {
   let index = Math.round(Math.random() * array.length - 1);
 
-  return array[index];
+  return array[index] + ' -filter:retweets';
 };
 
 function retweet() {
