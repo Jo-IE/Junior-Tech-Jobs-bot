@@ -13,19 +13,19 @@ const queryArray = [
   'entry-level infosec role,',
   'entry-level security analyst job,',
   ' junior infosec openings',
-  'junior sofware engineer openings',
-  'junior developer openings -business',
-  'associate developer -business',
-  'looking for junior developer -business',
-  'looking for associate developer -business',
-  'looking for entry-level software engineer',
-  'looking for junior frontend engineer',
-  'looking for junior backend engineer',
-  'looking for junior systems developer',
-  'looking for entry-level systems developer',
-  'hiring entry-level systems developer',
-  'hiring junior backend engineer',
-  'hiring junior frontend engineer'
+  'junior sofware engineer openings,',
+  'junior developer openings -business,',
+  'associate developer -business,',
+  'looking for junior developer -business,',
+  'looking for associate developer -business,',
+  'looking for entry-level software engineer,',
+  'looking for junior frontend engineer,',
+  'looking for junior backend engineer,',
+  'looking for junior systems developer,',
+  'looking for entry-level systems developer,',
+  'hiring entry-level systems developer,',
+  'hiring junior backend engineer,',
+  'hiring junior frontend engineer,'
 ];
 let prevIndex = 0;
 const pickQuery = function(array) {
