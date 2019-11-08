@@ -11,7 +11,10 @@ const queryArray = [
   'all levels software engineers role,',
   'entry-level infosec job,',
   'entry-level infosec role,',
-  'entry-level security analyst job,'
+  'entry-level security analyst job,',
+  ' junior infosec openings',
+  'junior sofware engineer openings',
+  'junior developer opening -business'
 ];
 
 const pickQuery = function(array) {
