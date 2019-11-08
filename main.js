@@ -22,13 +22,20 @@ const queryArray = [
   'looking for junior frontend engineer',
   'looking for junior backend engineer',
   'looking for junior systems developer',
-  'looking for entry-level systems developer'
+  'looking for entry-level systems developer',
+  'hiring entry-level systems developer',
+  'hiring junior backend engineer',
+  'hiring junior frontend engineer'
 ];
-
+let prevIndex = 0;
+let newIndex = 0;
 const pickQuery = function(array) {
   let index = Math.floor(Math.random() * array.length - 1);
-
-  return array[index] + ' -filter:retweets';
+  while (prevIndex === index) {
+    newIndex = Math.floor(Math.random() * array.length - 1);
+  }
+  prevIndex = newIndex;
+  return array[newIndex] + ' -filter:retweets';
 };
 
 function retweet() {
