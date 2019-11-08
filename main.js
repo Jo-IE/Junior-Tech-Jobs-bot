@@ -4,12 +4,9 @@ const config = require('./config');
 const Twitter = new Twit(config);
 
 const queryArray = [
-  'entry-level software job,',
   '1yr experience software job,',
-  'junior developer job -business,',
   'entry-level developer job -business,',
   'all levels software engineers role,',
-  'entry-level infosec job,',
   'entry-level infosec role,',
   'entry-level security analyst job,',
   ' junior infosec openings',
