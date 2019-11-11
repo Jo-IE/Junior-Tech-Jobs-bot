@@ -22,7 +22,13 @@ const queryArray = [
   'looking for entry-level systems developer,',
   'hiring entry-level systems developer,',
   'hiring junior backend engineer,',
-  'hiring junior frontend engineer,'
+  'hiring junior frontend engineer,',
+  'hiring junior QA engineer,',
+  'hiring entry-level QA engineer,',
+  'hiring entry-level security engineer,',
+  'hiring entry-level product manager,',
+  'hiring entry-level web designer,',
+  'hiring junior android developer,'
 ];
 let prevIndex = 0;
 const pickQuery = function(array) {
