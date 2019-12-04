@@ -33,9 +33,9 @@ const queryArray = [
 let prevIndex = 0;
 const pickQuery = function(array) {
   let index = Math.floor(Math.random() * (array.length - 1));
-  while (prevIndex === index) {
+  /*while (prevIndex === index) {
     index = Math.floor(Math.random() * (array.length - 1));
-  }
+  }*/
   prevIndex = index;
   return array[index] + ' -filter:retweets';
 };
